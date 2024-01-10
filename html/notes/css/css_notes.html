@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Notes - Run Buddy</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+    <h1>Project Documentation: CSS Notes</h1>
+
+    <section>
+        <h2>CSS Syntax Explanation</h2>
+        <pre><code>/* CSS Rule: 
+The entire block below is a CSS rule, which defines the styles for the elements selected by the selector. */
+
+body {
+    /* Selector: 
+        The part before the curly braces ('body') is the selector.
+        It identifies the HTML elements to which the CSS rule applies.
+        In this case, it targets the &lt;body&gt; tag of the HTML document. */
+
+    /* Declaration 1: */
+    color: #39a6b2; /* Property: 'color'
+                        Refers to a predefined style characteristic of the element.
+                        Property Value: '#39a6b2'
+                        Specifies the color value in hexadecimal format for the text of the body element. */
+
+    /* Declaration 2: */
+    font-family: Helvetica, Arial, sans-serif; /* Property: 'font-family'
+                                                  Refers to a predefined style characteristic of the element.
+                                                  Property Value: 'Helvetica, Arial, sans-serif'
+                                                  Specifies the font family for text in the body element. */
+}</code></pre>
+    </section>
+
+    <section>
+        <h2>CSS Box Model Visualization</h2>
+        <img src="./../../../assets/images/103-box-model.jpg" alt="CSS Box Model Diagram" title="CSS Box Model">
+        <p>A diagram showing nested boxes labeled Margin, Border, Padding, and Content (from outside to inside).</p>
+    </section>
+
+    <section>
+        <h2>Additional Notes on CSS Box Model</h2>
+        <p><strong>CSS Box Model:</strong> All HTML elements can be represented by a rectangular box, known as the CSS
+            box. The CSS Box Model visually represents the properties of the CSS box, which include content, padding,
+            border, and margins, layered like an onion.</p>
+        <ul>
+            <li><strong>Content:</strong> The innermost box inside the CSS box that contains text and nested elements.
+                Its size is determined by the 'height' and 'width' properties.</li>
+            <li><strong>Padding:</strong> Inside margin of the CSS box, surrounding the content. The size of padding can
+                be specified for each of the four sides.</li>
+            <li><strong>Border:</strong> Surrounds the padding and lies between the margin's inner edge. Sides, size,
+                and styles can be modified (e.g., border-bottom, border-style, border-top-color). Requires line weight,
+                style, and color for rendering.</li>
+            <li><strong>Margin:</strong> Similar to padding but outside the box. Creates space outside the box,
+                affecting nearby HTML elements. Specified using top, right, bottom, left values.</li>
+        </ul>
+    </section>
+
+</body>
+
+</html>
