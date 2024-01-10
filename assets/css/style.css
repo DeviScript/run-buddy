@@ -1,0 +1,30 @@
+/* CSS Syntax Explanation */
+
+/* CSS Rule: The entire block of the following code is a CSS rule. 
+   It defines the styles that will be applied to elements selected by the selector. */
+/* body { */
+    /* Declaration: Each line inside the curly braces is a declaration.
+       It consists of a property and its value, separated by a colon. */
+
+    /* color: #39a6b2; */
+    /* Declaration example:
+                       Property: color
+                       Property Value: #39a6b2
+                       This sets the text color for the body element. */
+
+    /* font-family: Helvetica, Arial, sans-serif; */
+    /* Declaration example:
+                                                   Property: font-family
+                                                   Property Value: Helvetica, Arial, sans-serif
+                                                   This sets the font family for text in the body element.
+                                                   It tries Helvetica first, then Arial, and falls back to a generic sans-serif font if neither is available. */
+/* } */
+
+/* Selector: The part before the curly braces (body) is the selector.
+   It identifies the HTML elements to which the CSS rule applies. In this case, it targets the <body> tag of the HTML document. */
+
+/* Property: Refers to a predefined style characteristic, like 'color' or 'font-family'. 
+   These are aspects of the element you want to style. */
+
+/* Property Value: Specifies the style settings for the chosen property.
+   For example, '#39a6b2' is a color value in hexadecimal format. */
