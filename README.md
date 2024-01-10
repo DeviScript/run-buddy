@@ -65,4 +65,31 @@ body {
 }
 ```
 
-<!-- 1.2.6 -->
+_CSS Box Model Visualization:_
+![CSS Box Model Diagram](assets/images/103-box-model.jpg "CSS Box Model")
+_A diagram showing nested boxes labeled Margin, Border, Padding, and Content (from outside to inside)._
+
+### Additional Notes on CSS Box Model
+
+**CSS Box Model:** 
+- All HTML elements can be represented by a rectangular box, known as the CSS box.
+- The CSS Box Model visually represents the properties of the CSS box, which include content, padding, border, and margins, layered like an onion.
+
+**Content:**
+- The innermost box inside the CSS box that contains text and nested elements.
+- Its size is determined by the 'height' and 'width' properties.
+
+**Padding:**
+- Inside margin of the CSS box, surrounding the content.
+- The size of padding can be specified for each of the four sides.
+
+**Border:**
+- Surrounds the padding and lies between the margin's inner edge.
+- Sides, size, and styles can be modified (e.g., border-bottom, border-style, border-top-color).
+- Requires line weight, style, and color for rendering.
+
+**Margin:**
+- Similar to padding but outside the box.
+- Creates space outside the box, affecting nearby HTML elements.
+- Specified using top, right, bottom, left values.
+
